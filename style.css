@@ -1,0 +1,136 @@
+#title{
+    width: auto;
+    text-align: center;
+    font-size: medium;
+    font-display: bold;
+    color:black;
+    background: linear-gradient(to right, #ff0000, #7ac97a, rgb(199, 199, 116) );
+}
+#first{
+    border: 3px solid red;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 130px;
+    margin-right: 90px;
+    width:950px;
+    height: 80px;
+    background-color: cornflowerblue;
+    margin-top: 10px;
+}
+.flex-container{
+    border: 4px solid red;
+    background-color: lightyellow;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+.box{
+    border: 2px solid cornflowerblue;
+    background-color:cyan;
+    border-radius: 5px;
+    width: 330px;
+    margin: 20px;
+    display: inline-block;
+}
+.box4{
+    border: 2px solid cornflowerblue;
+    background-color: cyan;
+    border-radius: 9px;
+    width: 330px;
+    height: 60px;
+    margin: 20px;
+    display: inline-block;
+    margin-left: 400px;
+    margin-top: 0px;
+    
+
+    
+
+}
+#middle{
+    width: auto;
+    text-align: center;
+    font-size: medium;
+    font-display: bold;
+    color:black;
+    /* border: 5px solid gainsboro; */
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: underline red;
+    background-image: radial-gradient(500px, yellow ,red);
+}
+.parent-container{
+    border: 3px solid green;
+    background-image: radial-gradient(500px, rgb(175, 175, 230) ,rgb(130, 180, 130));
+    height: 300px;
+}
+.container{
+    border: 2px solid red;
+    background-color:lightpink;
+    border-radius: 13px;
+    text-align: center;
+    display: inline-block;
+    margin: 30px;
+    margin-left: 120px;
+    padding: 40px;
+    color: rgb(216, 138, 125);
+    text-decoration: underline red;
+
+}
+.grid-container{
+    width: 100%;
+    border: 1px solid black;
+    display: grid;
+    /* grid-template-rows: 60px 100px 200px; */
+    grid-template-columns: repeat(3,1fr) 100px;
+    grid-gap: 5px;
+    margin-top: 55px;
+
+}
+.grid-one{
+    background-color: red;
+    letter-spacing: 3px;
+    text-align: center;
+    color: rgb(62, 185, 62);
+    grid-column: 1/-1;
+}
+.grid-two{
+    background-color: lime;
+    text-align: center;
+    color: rgb(89, 202, 89);
+    font-size: 20px;
+}
+.grid-three{
+    background-color: royalblue;
+    color: rgb(88, 180, 88);
+    font-size: 20px;
+    text-align: center;
+}
+.grid-four{
+    background-color: darkslateblue;
+    color: rgb(74, 138, 74);
+    font-size: 20px;
+    text-align: center;
+}
+.last{
+    background-color: lightgrey;
+    color: rgb(68, 155, 68);
+    font-size: 25px;
+    grid-column: 1/4;
+    text-align: center;
+}
+.list{
+    background-color: black;
+    color: rgb(86, 172, 86);
+    font-size: 15px;
+    grid-row: 2/4;
+    grid-column: 4/5;
+    text-decoration: underline;
+    padding: 3px;
+    text-align: center;
+}
+.footer{
+    background-color: rgb(10, 82, 73);
+    color: black;
+    text-align: center;
+    grid-column: 1/-1;
+}
